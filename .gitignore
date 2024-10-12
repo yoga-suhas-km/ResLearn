@@ -1,0 +1,12 @@
+__pycache__
+plots
+models
+metrics
+predicted
+Dataset1
+Dataset1_pre_processed
+Dataset2
+Dataset2_pre_processed
+Dataset3
+Dataset3_pre_processed
+explorative_data_analysis

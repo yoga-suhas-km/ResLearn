@@ -1,0 +1,134 @@
+python pred_xr.py --data Dataset1 --feature frame_count --experiment 1 --residual_learning 1
+
+exp1:
+
+frame_size = total_pkt_length_per_segment
+
+dataset 1 exp 1  
+
+700 datapoint
+step = 1
+rolling window = 20 
+segment_training_windows = 17
+
+
+
+***************************************
+
+exp2:
+
+frame_count
+
+dataset 1 exp 1 700 datapoint
+step = 1
+rolling window = 22
+segment_training_windows = 17
+
+
+***************************************
+
+exp3:
+
+avg_frame_iat
+
+dataset 1 exp 1 700 datapoint
+step = 1
+rolling window = 3
+segment_training_windows = 17
+
+df = (prepare_data(args.data, args.segment_type, int(args.experiment))[config.required_columns]*1000)
+
+***************************************
+exp4: 
+
+total_pkt_length_per_segment
+dataset 2 exp 1  800 datapoint
+step = 1
+rolling window = 25
+segment_training_windows = 20
+
+***************************************
+
+exp5:
+
+frame_count
+dataset 2 exp 1 800 datapoint
+step = 1
+rolling window = 22
+segment_training_windows = 20
+
+***************************************
+
+exp6:
+
+avg_frame_iat
+
+dataset 2 exp 1  800 datapoint
+step = 1
+rolling window = 10
+segment_training_windows = 8
+
+df = (prepare_data(args.data, args.segment_type, int(args.experiment))[config.required_columns]*1000)
+
+***************************************
+
+exp7: 
+
+total_pkt_length_per_segment
+dataset 3 exp 1  300 datapoint
+step = 1
+rolling window = 25 
+segment_training_windows = 7
+
+***************************************
+
+exp8: 
+
+frame_count
+dataset 3 exp 1  300 datapoint
+step = 1
+rolling window = 20 
+segment_training_windows = 7
+
+***************************************
+
+exp8: 
+
+avg_frame_iat
+dataset 3 exp 1  300 datapoint
+step = 1
+rolling window = 5
+segment_training_windows = 7
+
+***************************************
+
+exp9: 
+
+avg_frame_iat
+dataset 3 exp 2  300 datapoint
+step = 1
+rolling window = 10
+segment_training_windows = 7
+
+***************************************
+
+exp10: 
+
+frame_count
+dataset 3 exp 2  300 datapoint
+step = 1
+rolling window = 20 
+segment_training_windows = 7
+
+***************************************
+
+exp11
+
+total_pkt_length_per_segment
+dataset 3 exp 2  300 datapoint
+step = 1
+rolling window = 25 
+segment_training_windows = 7
+
+****************************************
+We need to add configs or single csv
