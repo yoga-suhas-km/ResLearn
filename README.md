@@ -1,4 +1,4 @@
-# VR-Network-Traffic-Prediction
+# ResLearn: Transformer-based Residual Learning for Metaverse Network Traffic Prediction
 Initial development of VR Network Traffic Prediction
 
 # Running `pred_xr.py`
