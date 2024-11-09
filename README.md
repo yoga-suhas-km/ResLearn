@@ -4,10 +4,10 @@ Initial development of VR Network Traffic Prediction
 # Running `pred_xr.py`
 - Ensure appropriate dataset files are in repository
 
-  ![alt text](image3.png)
+  ![alt text](Documentation\image3.png)
 - Modify `config.py` to point to appropriate dataset paths (MUST BE FULL PATH)
 
-    ![alt text](image5.png)
+    ![alt text](Documentation\image5.png)
 - Install Anaconda dependencies from `environment.yaml` file
   ```bash
   conda env create --file environment.yaml
@@ -73,7 +73,7 @@ Initial development of VR Network Traffic Prediction
   python pred_xr.py --plot_total_predictions 1
 - **Example output**:
 
-  ![alt text](all_metrics_for_all_segments.jpg)
+  ![alt text](Documentation\all_metrics_for_all_segments.jpg)
 
 ---
 ### Entry point `python .\explorative_data_analysis.py` plus flags
@@ -82,8 +82,6 @@ Initial development of VR Network Traffic Prediction
 - 
   ```bash
   python .\explorative_data_analysis.py --data Dataset1
-
-
 ### `--data`
 - **Description**: Specifies the dataset to be used.
 - **Default**: `Dataset1`
