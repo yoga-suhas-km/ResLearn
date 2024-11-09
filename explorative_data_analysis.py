@@ -59,8 +59,7 @@ if not os.path.exists(save_directory):
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--data", default="Dataset1", help="Dataset1, Dataset2 or Dataset3")
-parser.add_argument("--segment_type", default="packets", help="packets or time_window")
-parser.add_argument("--experiment", default="1", help="1 or 2")
+parser.add_argument("--experiment", default="1", help="1 or 2 for dataset3")
 args = parser.parse_args()
 
 
@@ -225,7 +224,7 @@ def explorative_data_analysis():
     #         df = load_data_from_time_window_segmentation(df, 1)
     #     df = df[config.required_columns]
     # else:
-    df = prepare_data(args.data, args.segment_type, int(args.experiment))[config.required_columns[0]]
+    df = prepare_data(args.data, "packets", int(args.experiment))[config.required_columns[0]]
 
     df = rolling_over_window(df, 20)
 

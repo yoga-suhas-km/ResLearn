@@ -74,3 +74,26 @@ Initial development of VR Network Traffic Prediction
 - **Example output**:
 
   ![alt text](all_metrics_for_all_segments.jpg)
+
+---
+### Entry point `python .\explorative_data_analysis.py` plus flags
+- **Description**: Performes runs, lb and shannon test on specified dataset
+### All possible flags with default options
+- 
+  ```bash
+  python .\explorative_data_analysis.py --data Dataset1
+- **Example output - bash**:
+
+  ![alt text](image.png)
+
+- **Example output - plot**:
+
+  ![alt text](rolling_stats.jpg)
+
+### `--data`
+- **Description**: Specifies the dataset to be used.
+- **Default**: `Dataset1`
+- **Options**: `Dataset1` `Dataset2` `Dataset3`
+- **Usage**:
+  ```bash
+  python .\explorative_data_analysis.py --data Dataset2
