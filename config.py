@@ -48,7 +48,7 @@ Dataset_exp = [1, 2, 3, 4, 5, 6]
 
 # Dataset1_path = r".\Dataset1"
 
-Dataset1_path = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset1"
+Dataset1_path = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset1"
 Processed_data1 = "Dataset1_pre_processed"
 
 
@@ -67,7 +67,7 @@ Dataset1_segment_training_windows = 17
 
 # ********* Dataset 2 configs ************
 
-Dataset2_path = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset2"
+Dataset2_path = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset2"
 Processed_data2 = "Dataset2_pre_processed"
 
 
@@ -85,7 +85,7 @@ Dataset2_exp1_frame_iat_rolling_over_window = 10
 Dataset2_exp1_segment_training_windows = 20
 
 # ********** Dataset 2 exp2 Beatsaber 40mbps**************
-Dataset2_exp2_single_csv_location = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset2\CloudAdpBitrate\BeatSaber\BeatSaberClim40d5A40H90PC10.64.3.81HMD135.0.132.145.csv"
+Dataset2_exp2_single_csv_location = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset2\CloudAdpBitrate\BeatSaber\BeatSaberClim40d5A40H90PC10.64.3.81HMD135.0.132.145.csv"
 Dataset2_exp2_end_index = 220
 
 Dataset2_exp2_N = 500  # size of slice
@@ -97,7 +97,7 @@ Dataset2_exp2_frame_iat_rolling_over_window = 5
 Dataset2_exp2_segment_training_windows = 5
 
 # ********** Dataset 2 exp3 Beatsaber 54mbps**************
-Dataset2_exp3_single_csv_location = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset2\CloudAdpBitrate\BeatSaber\BeatSaberClim54A40H90PC10.64.3.81HMD135.0.132.145.csv"
+Dataset2_exp3_single_csv_location = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset2\CloudAdpBitrate\BeatSaber\BeatSaberClim54A40H90PC10.64.3.81HMD135.0.132.145.csv"
 Dataset2_exp3_end_index = 220
 
 Dataset2_exp3_N = 500  # size of slice
@@ -109,7 +109,7 @@ Dataset2_exp3_frame_iat_rolling_over_window = 5
 Dataset2_exp3_segment_training_windows = 5
 
 # ********** Dataset 2 exp4 Beatsaber 120mbps**************
-Dataset2_exp4_single_csv_location = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset2\CloudAdpBitrate\BeatSaber\BeatSaberCNormalA40H90PC10.64.3.81HMD135.0.132.145.csv"
+Dataset2_exp4_single_csv_location = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset2\CloudAdpBitrate\BeatSaber\BeatSaberCNormalA40H90PC10.64.3.81HMD135.0.132.145.csv"
 Dataset2_exp4_end_index = 220
 
 Dataset2_exp4_N = 500  # size of slice
@@ -121,7 +121,7 @@ Dataset2_exp4_frame_iat_rolling_over_window = 5
 Dataset2_exp4_segment_training_windows = 5
 
 # ********** Dataset 2 exp5 steamvr 40mbps**************
-Dataset2_exp5_single_csv_location = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset2\CloudAdpBitrate\SteamVRHome\VRhomeClim40d5A40H90PC10.64.3.81HMD135.0.132.145.csv"
+Dataset2_exp5_single_csv_location = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset2\CloudAdpBitrate\SteamVRHome\VRhomeClim40d5A40H90PC10.64.3.81HMD135.0.132.145.csv"
 Dataset2_exp5_end_index = 220
 
 Dataset2_exp5_N = 500  # size of slice
@@ -133,7 +133,7 @@ Dataset2_exp5_frame_iat_rolling_over_window = 5
 Dataset2_exp5_segment_training_windows = 5
 
 # ********** Dataset 2 exp6 steamvr 54mbps**************
-Dataset2_exp6_single_csv_location = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset2\CloudAdpBitrate\SteamVRHome\VRhomeClim54A40H90PC10.64.3.81HMD135.0.132.145.csv"
+Dataset2_exp6_single_csv_location = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset2\CloudAdpBitrate\SteamVRHome\VRhomeClim54A40H90PC10.64.3.81HMD135.0.132.145.csv"
 Dataset2_exp6_end_index = 220
 
 Dataset2_exp6_N = 500  # size of slice
@@ -159,7 +159,7 @@ Dataset2_exp6_segment_training_windows = 5
 # -----------------------------------------
 # fast_traffic | Cooking Sim.| Forklift Sim.
 
-Dataset3_path = r"C:\Users\shimship\LocalDocuments\GitRepos\VR-Network-Traffic-Prediction\Dataset3"
+Dataset3_path = r"C:\Users\**CHANGE_DATASET_PATH**\ResLearn\Dataset3"
 Processed_data3 = "Dataset3_pre_processed"
 
 
