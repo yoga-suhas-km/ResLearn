@@ -82,13 +82,7 @@ Initial development of VR Network Traffic Prediction
 - 
   ```bash
   python .\explorative_data_analysis.py --data Dataset1
-- **Example output - bash**:
 
-  ![alt text](image.png)
-
-- **Example output - plot**:
-
-  ![alt text](rolling_stats.jpg)
 
 ### `--data`
 - **Description**: Specifies the dataset to be used.
